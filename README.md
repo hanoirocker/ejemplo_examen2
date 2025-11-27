@@ -24,3 +24,7 @@ Iniciar TypeScript (Crea tsconfig.json)
 `touch index.ts`
 
 4 - Trabajar en index.ts con las rutas requeridas.
+
+5 - Cliente:
+Borrar todo el contenido de styles/global.css (no imports)
+Borrar todo el contenido dentro de index.tsx (dejar como está \_app.tsx y \_document.tsx)
