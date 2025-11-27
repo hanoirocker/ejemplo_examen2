@@ -59,7 +59,7 @@ app.post('/comments', async (req: Request<{}, {}, Feedback>, res: Response) => {
 
   // Guardar info (en realidad se simula esto)
   await saveFeedback({ email, message });
-  return res.json();
+  return res.status(201).json({ message: 'Comentario creado exitosamente' });
 });
 
 app.listen(PORT, () => {
