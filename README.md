@@ -19,3 +19,8 @@ Iniciar TypeScript (Crea tsconfig.json)
   "dev": "nodemon index.ts"
 },
 ```
+
+3 - Crear archivo intex.ts dentro de ./server
+`touch index.ts`
+
+4 - Trabajar en index.ts con las rutas requeridas.
