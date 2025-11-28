@@ -32,7 +32,7 @@ export default function Home() {
 
         {/* Link a la página de comentarios */}
         <Link
-          href={'/comentarios'}
+          href={'/comments'}
           style={{
             padding: '10px 20px',
             backgroundColor: '#28a745',
